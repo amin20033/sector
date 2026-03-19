@@ -26,4 +26,4 @@ async def fetch_news(sector):
                 "link": news.get("link"),
                 "description":news.get("description")
             })
-    return news_list
+    return news
