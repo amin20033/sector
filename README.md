@@ -112,6 +112,9 @@ API_KEY = "your_api_key_here"
 ---
 
 ### 6. Run Migrations
+```bash
+python manage.py makemigrations
+```
 
 ```bash
 python manage.py migrate
